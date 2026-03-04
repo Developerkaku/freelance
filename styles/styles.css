@@ -437,7 +437,7 @@ section {
     margin: 0 auto;
     background: var(--surface);
     border-radius: 14px;
-    padding: 24px;
+    padding: 40px;
     box-shadow: 0 10px 30px rgba(14, 26, 43, .06);
 }
 
@@ -490,6 +490,7 @@ section {
     border: 1px solid rgba(14, 26, 43, .04);
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
     gap: 10px
 }
 
@@ -636,10 +637,11 @@ section {
 .why-card__ctas {
     display: flex;
     gap: 8px;
-    /* flex-direction: column;
-    align-items: center;
-    align-items: baseline;
-    justify-items: center; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* justify-items: center; */
     margin-top: 6px
 }
 
