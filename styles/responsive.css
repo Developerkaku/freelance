@@ -109,7 +109,7 @@
 /*MAPS*/
 @media(min-width:900px) {
     body {
-        background-color: red;
+        /* background-color: red; */
     }
     .trust__body {
         flex-direction: row
